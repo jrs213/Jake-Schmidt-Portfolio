@@ -3,35 +3,44 @@
 </script>
 
 <template>
-    <section
-        class="min-h-screen flex flex-col justify-center items-center bg-gradient-to-b from-gray-800 via-gray-900 to-black text-white">
-        <h2 class="text-4xl font-bold mb-8">Skills</h2>
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 w-full max-w-4xl px-4">
+    <section id="projects"
+        class="flex flex-col justify-center items-center bg-gradient-to-b from-gray-800 via-gray-900 to-black text-white">
+        <h2 class="text-4xl font-bold mb-8">Section</h2>
+        <div class="grid grid-cols-4 gap-6 w-full  px-4">
             <div class="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
-                <h3 class="text-2xl font-semibold mb-4">Frontend</h3>
+                <img src="https://placehold.co/400" alt="">
+                <h3 class="text-2xl font-semibold mb-4">213</h3>
                 <ul class="list-disc list-inside space-y-2">
-                    <li>HTML5, CSS3, JavaScript (ES6+)</li>
-                    <li>Vue.js, React</li>
-                    <li>Tailwind CSS, Bootstrap</li>
-                    <li>Responsive Design</li>
+                    <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur vel voluptatum illum id
+                        laboriosam dignissimos aspernatur harum, rem veritatis asperiores pariatur maxime, nesciunt
+                        porro facere. Ea distinctio vel in voluptates.</li>
                 </ul>
             </div>
             <div class="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
-                <h3 class="text-2xl font-semibold mb-4">Backend</h3>
+                <img src="https://placehold.co/400" alt="">
+                <h3 class="text-2xl font-semibold mb-4">213</h3>
                 <ul class="list-disc list-inside space-y-2">
-                    <li>Node.js, Express.js</li>
-                    <li>RESTful APIs</li>
-                    <li>Database Management (MongoDB, SQL)</li>
-                    <li>Authentication & Authorization</li>
+                    <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur vel voluptatum illum id
+                        laboriosam dignissimos aspernatur harum, rem veritatis asperiores pariatur maxime, nesciunt
+                        porro facere. Ea distinctio vel in voluptates.</li>
                 </ul>
             </div>
             <div class="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
-                <h3 class="text-2xl font-semibold mb-4">DevOps & Tools</h3>
+                <img src="https://placehold.co/400" alt="">
+                <h3 class="text-2xl font-semibold mb-4">213</h3>
                 <ul class="list-disc list-inside space-y-2">
-                    <li>Git & GitHub</li>
-                    <li>Docker & Kubernetes</li>
-                    <li>CI/CD Pipelines</li>
-                    <li>Cloud Services (AWS, Azure)</li>
+                    <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur vel voluptatum illum id
+                        laboriosam dignissimos aspernatur harum, rem veritatis asperiores pariatur maxime, nesciunt
+                        porro facere. Ea distinctio vel in voluptates.</li>
+                </ul>
+            </div>
+            <div class="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <img src="https://placehold.co/400" alt="">
+                <h3 class="text-2xl font-semibold mb-4">213</h3>
+                <ul class="list-disc list-inside space-y-2">
+                    <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur vel voluptatum illum id
+                        laboriosam dignissimos aspernatur harum, rem veritatis asperiores pariatur maxime, nesciunt
+                        porro facere. Ea distinctio vel in voluptates.</li>
                 </ul>
             </div>
         </div>

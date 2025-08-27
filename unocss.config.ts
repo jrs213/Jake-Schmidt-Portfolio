@@ -1,17 +1,7 @@
-// import { defineConfig, presetUno, presetAttributify, presetIcons } from 'unocss';
+import { defineConfig, presetUno, presetAttributify, presetIcons } from 'unocss'
 
-// export default defineConfig({
-//   presets: [
-//     presetUno(),
-//     presetAttributify(),
-//     presetIcons(),
-//   ],
-// });
-
-import { defineConfig } from 'unocss'
-
-// Config options: https://unocss.dev/config/
 export default defineConfig({
+  presets: [presetUno(), presetAttributify(), presetIcons()],
   theme: {
     colors: {
       primary: 'var(--color-primary)',

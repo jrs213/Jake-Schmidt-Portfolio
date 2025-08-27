@@ -5,9 +5,11 @@ import FooterNav from './components/Footer-Nav.vue';
 </script>
 
 <template>
-  <NavBar />
-  <RouterView />
-  <FooterNav />
+  <div class="">
+    <NavBar />
+    <RouterView />
+    <FooterNav />
+  </div>
 </template>
 
 <style scoped></style>
