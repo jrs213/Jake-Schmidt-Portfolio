@@ -6,12 +6,12 @@
 <template>
 
     <section
-        class="min-h-screen flex justify-around items-center bg-gradient-to-b from-primary to-primaryDark text-white px-4">
-        <div class="max-w-2xl w-full text-center">
-            <h1 class="text-4xl md:text-6xl font-bold mb-4 drop-shadow-lg">Hello World</h1>
-            <h2 class="text-xl md:text-2xl font-medium mb-6 text-textMuted">Text</h2>
-            <p class="mb-8 text-lg md:text-xl text-surface/80">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Temporibus architecto harum laborum dicta omnis quae nemo dignissimos sapiente deleniti! </p>
+        class="h-60vh flex justify-around items-center bg-gradient-to-b from-primary to-primaryDark text-white px-4">
+        <div class="max-w-2xl w-full">
+            <h1 class="text-4xl font-bold text-start mb-4 drop-shadow-lg">Hi, I'm</h1>
+            <h2 class="text-8xl font-bold text- mb-6 text-textMuted">Jake Schmidt</h2>
+            <p class="mb-8 text-lg md:text-xl text-surface/80">A web developer specializing in building exceptional
+                digital experiences. </p>
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
             </div>
         </div>

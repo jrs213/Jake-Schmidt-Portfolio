@@ -11,7 +11,7 @@ ADD:
      Hover effects
      Active link indicator
 -->
-    <div class="flex bg-primary justify-between items-center p-4 text-white shadow-md">
+    <div class="flex bg-primary text-white text-xl shadow-md rounded justify-between items-center m-1vh p-6 ">
         <div class="">
             <h1>Nav</h1>
         </div>
