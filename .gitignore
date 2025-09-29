@@ -29,3 +29,6 @@ coverage
 
 *.tsbuildinfo
 
+# TypeScript files that might conflict
+*.ts.js
+*.ts.map
