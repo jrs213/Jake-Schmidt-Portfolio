@@ -5,10 +5,10 @@ const formKey = import.meta.env.VITE_FORM_KEY;
 </script>
 
 <template>
-    <section id="contact" class="w-full min-h-[80vh] flex items-center justify-center bg-primary py-16">
-        <div class="w-full max-w-50vw bg-primaryDark/80 rounded-2xl  border border-accentGreen/30 p-8 md:p-12">
-            <h2 class="text-3xl md:text-4xl font-bold text-center mb-8 text-white tracking-tight">
-                Contact <span class="">Me</span>
+    <section id="contact" class="w-full min-h-[80vh] flex items-center justify-center bg-primary py-12 md:py-16 px-4">
+        <div class="w-full max-w-lg md:max-w-xl bg-primaryDark/80 rounded-2xl border border-accentGreen/30 p-6 md:p-12">
+            <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-6 md:mb-8 text-white tracking-tight">
+                Contact <span class="text-accentGreen">Me</span>
             </h2>
             <form action="https://api.web3forms.com/submit" method="POST" class="flex flex-col gap-5 text-white">
                 <input type="hidden" name="access_key" :value="formKey">

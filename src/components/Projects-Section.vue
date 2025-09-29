@@ -3,14 +3,14 @@
 </script>
 
 <template>
-    <section id="projects" class="flex flex-col justify-center items-center bg-primary text-white py-16">
-        <h2 class="text-4xl font-bold mb-8 text-accentGreen">Projects</h2>
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 w-full px-4">
+    <section id="projects" class="flex flex-col justify-center items-center bg-primary text-white py-12 md:py-16">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 text-accentGreen">Projects</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-6 md:gap-8 w-full px-4 max-w-7xl">
             <div
-                class="bg-primaryDark p-6 rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300 border-b-4 border-accentGreen flex flex-col items-start">
+                class="bg-primaryDark p-4 md:p-6 rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300 border-b-4 border-accentGreen flex flex-col items-start">
                 <img src="../assets/WeatherDashboard.png" alt="Weather Dashboard screenshot"
                     class="rounded-lg mb-4 w-full aspect-video object-fit border border-accentGreen/30">
-                <h3 class="text-2xl font-semibold mb-2 text-accentGreen">Weather Dashboard</h3>
+                <h3 class="text-xl md:text-2xl font-semibold mb-2 text-accentGreen">Weather Dashboard</h3>
                 <p class="mb-4 text-textMuted">A clean, modern weather application built with Vue 3 and TypeScript that
                     displays current weather conditions and 7-day forecasts for any city worldwide.</p>
                 <ul class="list-disc list-inside space-y-1 text-textMuted text-base mb-4">

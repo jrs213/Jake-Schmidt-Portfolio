@@ -11,22 +11,29 @@ ADD:
      Hover effects
      Active link indicator
 -->
-    <div
-        class="flex bg-primary-dark text-white text-xl shadow-md justify-between items-center p-6 border-b-2 border-accentGreen glow-green">
-        <div class="font-bold">
+    <nav
+        class="flex bg-primary-dark text-white text-sm sm:text-lg md:text-xl shadow-md justify-between items-center p-4 md:p-6 border-b-2 border-accentGreen glow-green">
+        <div class="font-bold text-lg sm:text-xl">
             <h1>JRS213</h1>
         </div>
-        <div class="flex justify-around items-center w-1/2 gap-0">
+        <div class="hidden sm:flex items-center gap-4 md:gap-6">
             <a href="#projects" class="hover:text-accentGreen transition-colors">Projects</a>
             <a href="#contact" class="hover:text-accentGreen transition-colors">Contact</a>
             <a href="https://github.com/jrs213" target="_blank"
                 class="hover:text-accentGreen transition-colors">Github</a>
             <a href="/resume.pdf" download="Jake_Schmidt_Resume.pdf"
-                class="bg-accentGreen text-primary-dark px-4 py-2 rounded font-semibold hover:bg-accentGreen/80 transition glow-green">
+                class="bg-accentGreen text-primary-dark px-3 md:px-4 py-1.5 md:py-2 rounded text-sm md:text-base font-semibold hover:bg-accentGreen/80 transition glow-green">
                 Resume
             </a>
         </div>
-    </div>
+        <div class="sm:hidden flex items-center gap-3">
+            <a href="#contact" class="text-accentGreen">Contact</a>
+            <a href="/resume.pdf" download="Jake_Schmidt_Resume.pdf"
+                class="bg-accentGreen text-primary-dark px-3 py-1.5 rounded text-sm font-semibold hover:bg-accentGreen/80 transition glow-green">
+                Resume
+            </a>
+        </div>
+    </nav>
 </template>
 
 <style scoped>

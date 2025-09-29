@@ -3,13 +3,13 @@ import { Icon } from '@iconify/vue';
 </script>
 
 <template>
-    <section class="skills-section py-16 bg-primaryDark text-white">
-        <h2 class="text-3xl font-bold mb-8 text-accentGreen text-center">Skills & Technologies</h2>
-        <div class="grid sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-8 max-w-70vw mx-auto text-center">
+    <section class="skills-section py-12 md:py-16 bg-primaryDark text-white px-4">
+        <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold mb-8 text-accentGreen text-center">Skills & Technologies</h2>
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6 md:gap-8 max-w-6xl mx-auto text-center">
             <div class="flex flex-col items-center">
                 <Icon icon="simple-icons:vuedotjs"
-                    class="text-6xl mb-2 text-textMuted hover:text-accentGreen transition-colors transition-transform duration-200 ease-in-out green-glow" />
-                <span class="mt-2">Vue.js</span>
+                    class="text-4xl sm:text-5xl md:text-6xl mb-2 text-textMuted hover:text-accentGreen transition-colors transition-transform duration-200 ease-in-out green-glow" />
+                <span class="mt-2 text-sm sm:text-base">Vue.js</span>
             </div>
             <div class="flex flex-col items-center">
                 <Icon icon="simple-icons:tailwindcss"
