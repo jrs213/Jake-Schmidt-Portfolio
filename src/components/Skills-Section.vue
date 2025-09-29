@@ -66,7 +66,7 @@ import { Icon } from '@iconify/vue';
                     class="text-6xl mb-2 text-textMuted hover:text-accentGreen transition-colors transition-transform duration-200 ease-in-out green-glow" />
                 <span class="mt-2">Jest</span>
             </div>
-            <!-- Add more icons/skills as needed -->
+
         </div>
     </section>
 </template>
