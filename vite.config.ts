@@ -8,6 +8,7 @@ import Unocss from 'unocss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [vue(), vueDevTools(), Unocss()],
+  base: './',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
@@ -18,6 +19,9 @@ export default defineConfig({
     rollupOptions: {
       output: {
         manualChunks: undefined,
+        assetFileNames: 'assets/[name].[hash][extname]',
+        chunkFileNames: 'assets/[name].[hash].js',
+        entryFileNames: 'assets/[name].[hash].js',
       },
     },
   },
