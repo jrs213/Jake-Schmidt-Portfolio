@@ -8,8 +8,8 @@ import ContactMe from '@/components/Contact-Me.vue';
 <template>
   <main>
     <HeroHome />
-    <ProjectsSection />
     <SkillsSection />
+    <ProjectsSection />
     <ContactMe />
   </main>
 </template>

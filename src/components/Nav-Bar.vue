@@ -11,17 +11,26 @@ ADD:
      Hover effects
      Active link indicator
 -->
-    <div class="flex bg-primary text-white text-xl shadow-md rounded justify-between items-center m-1vh p-6 ">
-        <div class="">
-            <h1>Nav</h1>
+    <div
+        class="flex bg-primary-dark text-white text-xl shadow-md justify-between items-center p-6 border-b-2 border-accentGreen glow-green">
+        <div class="font-bold">
+            <h1>JRS213</h1>
         </div>
-        <div class="flex justify-around w-1/2">
-            <a href="">Home</a>
-            <a href="#projects">Projects</a>
-            <a href="">About</a>
-            <a href="">Contact</a>
+        <div class="flex justify-around items-center w-1/2 gap-0">
+            <a href="#projects" class="hover:text-accentGreen transition-colors">Projects</a>
+            <a href="#contact" class="hover:text-accentGreen transition-colors">Contact</a>
+            <a href="https://github.com/jrs213" target="_blank"
+                class="hover:text-accentGreen transition-colors">Github</a>
+            <a href="/resume.pdf" download="Jake_Schmidt_Resume.pdf"
+                class="bg-accentGreen text-primary-dark px-4 py-2 rounded font-semibold hover:bg-accentGreen/80 transition glow-green">
+                Resume
+            </a>
         </div>
     </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.glow-green {
+    box-shadow: 0 0 16px 0 rgba(34, 197, 94, 0.25), 0 2px 8px 0 rgba(34, 197, 94, 0.10);
+}
+</style>
