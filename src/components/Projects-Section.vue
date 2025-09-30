@@ -5,7 +5,8 @@
 <template>
     <section id="projects" class="flex flex-col justify-center items-center bg-primary text-white py-12 md:py-16">
         <h2 class="text-3xl md:text-4xl font-bold mb-8 text-accentGreen">Projects</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-6 md:gap-8 w-full px-4 max-w-7xl">
+        <div
+            class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-6 md:gap-8 w-full px-4 max-w-7xl">
             <div
                 class="bg-primaryDark p-4 md:p-6 rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300 border-b-4 border-accentGreen flex flex-col items-start">
                 <img src="../assets/WeatherDashboard.png" alt="Weather Dashboard screenshot"
@@ -47,7 +48,6 @@
                     between Celsius and Fahrenheit.</p>
                 <ul class="list-disc list-inside space-y-1 text-textMuted text-base mb-4">
                     <li>TypeScript & NPM Package</li>
-                    <li>Zero Dependencies</li>
                     <li>High Precision Conversions</li>
                 </ul>
                 <a href="https://github.com/jrs213/tempWizard-NPM" target="_blank" rel="noopener"
@@ -65,7 +65,6 @@
                 <ul class="list-disc list-inside space-y-1 text-textMuted text-base mb-4">
                     <li>Vanilla HTML/CSS/JS</li>
                     <li>Customizable Parameters</li>
-                    <li>Client-Side Security</li>
                 </ul>
                 <a href="https://github.com/jrs213/Password-Generator" target="_blank" rel="noopener"
                     class="mt-auto bg-accentGreen text-primaryDark px-4 py-2 rounded font-semibold shadow hover:bg-accentGreen/80 transition glow-green">View

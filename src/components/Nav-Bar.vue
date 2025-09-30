@@ -3,14 +3,6 @@
 </script>
 
 <template>
-    <!-- * TODO *
-UPDATE:
-     Font size and other text decorations
-ADD:
-     Links to the section
-     Hover effects
-     Active link indicator
--->
     <nav
         class="flex bg-primary-dark text-white text-sm sm:text-lg md:text-xl shadow-md justify-between items-center p-4 md:p-6 border-b-2 border-accentGreen glow-green">
         <div class="font-bold text-lg sm:text-xl">
@@ -27,7 +19,6 @@ ADD:
             </a>
         </div>
         <div class="sm:hidden flex items-center gap-3">
-            <a href="#contact" class="text-accentGreen">Contact</a>
             <a href="/resume.pdf" download="Jake_Schmidt_Resume.pdf"
                 class="bg-accentGreen text-primary-dark px-3 py-1.5 rounded text-sm font-semibold hover:bg-accentGreen/80 transition glow-green">
                 Resume
