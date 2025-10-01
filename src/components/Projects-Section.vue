@@ -42,7 +42,7 @@
             <div
                 class="bg-primaryDark p-6 rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300 border-b-4 border-accentGreen flex flex-col items-start">
                 <img src="../assets/tempWizard.png" alt="tempWizardt screenshot"
-                    class="rounded-lg mb-4 w-full aspect-video object-cover border border-accentGreen/30">
+                    class="rounded-lg mb-4 w-full aspect-video object-fit border border-accentGreen/30">
                 <h3 class="text-2xl font-semibold mb-2 text-accentGreen">tempWizard</h3>
                 <p class="mb-4 text-textMuted">A lightweight JavaScript NPM package for seamless temperature conversions
                     between Celsius and Fahrenheit.</p>
@@ -57,7 +57,7 @@
             <div
                 class="bg-primaryDark p-6 rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300 border-b-4 border-accentGreen flex flex-col items-start">
                 <img src="../assets/PasswordGen.png" alt="Password Generator screenshot"
-                    class="rounded-lg mb-4 w-full aspect-video object-cover border border-accentGreen/30">
+                    class="rounded-lg mb-4 w-full aspect-video object-fit border border-accentGreen/30">
                 <h3 class="text-2xl font-semibold mb-2 text-accentGreen">Password Generator</h3>
                 <p class="mb-4 text-textMuted">A secure, client-side password generator built with pure HTML, CSS, and
                     JavaScript featuring customizable parameters for length, character types, and complexity
